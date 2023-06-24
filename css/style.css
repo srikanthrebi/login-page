@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+color:#212529;
+}
+section{
+    height: 100vh;
+}
+.bg-img{
+    background-image: url("../image/bg_1.jpg.webp");
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    font-weight: 400;
+}
+p{
+    color: #736c6cb1;
+    font-weight: 400;
+}
+.input input{
+    border: none;
+    width: 100%;
+    background-color: #d4c9c924;
+    padding: 12px 14px;
+    font-weight: 600;
+}
+
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #ccc;
+    font-weight: 300;
+}
+.check-box .gray{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.login-item .forgot a{
+    color: gray !important;
+    text-decoration: none !important;
+    transition: all 0.5s ease;
+}
+.login-item .forgot a:hover{
+    text-decoration: underline !important;
+}
+input[type=checkbox] {
+    accent-color: rgb(255, 115, 0);
+    width: 20px;
+    height: 20px;
+}
+.log-in{
+    
+}
+.input input[placeholder]{
+    color: gray;
+} 
+.log-in a{
+    background-color: rgb(255, 115, 0);
+   
+    text-decoration: none;
+    color: #fff !important;
+    transition: all 0.2s ease;
+
+}
+.log-in a:hover{
+    background-color: orange;
+}
